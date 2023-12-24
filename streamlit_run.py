@@ -2,7 +2,13 @@ import streamlit as st
 import pandas as pd
 from olga_file_generator import process_data
 import csv
-
+#from PIL import Image
+#im = Image.open("favicon.ico")
+st.set_page_config(
+    page_title="Hello",
+    page_icon=':card_index:',
+    layout="wide",
+)
 def main():
     st.title("File Generator App")
 
