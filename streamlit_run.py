@@ -43,5 +43,5 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as e:
-        st.write(e)
+        st.write("Invalid input(s)")
 
