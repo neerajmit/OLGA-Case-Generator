@@ -5,9 +5,8 @@ import csv
 #from PIL import Image
 #im = Image.open("favicon.ico")
 st.set_page_config(
-    page_title="Hello",
-    page_icon=':card_index:',
-    layout="wide",
+    page_title="OLGA .genkey",
+    page_icon=':card_index:'
 )
 def main():
     st.title("File Generator App")
