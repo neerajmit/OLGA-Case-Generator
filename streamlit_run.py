@@ -9,7 +9,7 @@ st.set_page_config(
     page_icon=':card_index:'
 )
 def main():
-    st.title("File Generator App")
+    st.title("OLGA CASE FILE GENERATOR APP")
 
     # Upload file
     uploaded_file = st.file_uploader("Upload .opi File", type=["opi"])
